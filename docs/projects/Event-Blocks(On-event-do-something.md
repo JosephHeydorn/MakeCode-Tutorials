@@ -8,8 +8,8 @@ In this tutorial we will create code that on an event it does something.
 
 Let's start by adding one touch sensor and set it to ANY and Touched.
 
-'''blocks
+```blocks
 makerbit.onTouch(TouchSensor.Any, TouchAction.Released, function () {
     
 })
-'''
+```
