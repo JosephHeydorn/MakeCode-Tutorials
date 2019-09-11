@@ -13,3 +13,5 @@ makerbit.onTouch(TouchSensor.Any, TouchAction.Released, function () {
     
 })
 ```
+
+## Final Step @tutorialCompleted
