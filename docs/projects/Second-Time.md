@@ -1,4 +1,4 @@
-# Title 
+# Second-Timer 
 
 ## Introduction 
 
@@ -53,12 +53,44 @@ makerbit.showStringOnLcd("MakerBit Timer", makerbit.position(LcdPosition.P0), ma
 makerbit.showStringOnLcd("Seconds: ", makerbit.position(LcdPosition.P0), makerbit.position(LcdPosition.P24))
 ```
 
-##Step 6 
+## Step 6 
+ 
+ Next lets grab and place a forever block if it's not already on screen. This will help us loop a timer forever! We need to have a way that it wait's 1 second everytime before it adds on to the actual timer, so lets grab the pause block and set it to 1000.
 
+```blocks
+ basic.forever(function () {
+    basic.pause(1000)
+})
+```
 
+## Step 7 
 
-## Delete Later 
+Then we are going to add to our variable every time our 1 second pause ends, this is so that our timer can update every second. 
 
+```blocks
+ basic.forever(function () {
+    basic.pause(1000)
+    NumberOfSeconds += 1
+})
+```
+
+## Step 8 
+
+For our last step before we test our code on our MakerBit and LCD screen, we want to show a number on the LCD in the space that is free to do so! That means we need to position it in the right place. Lets grab our "Show number on LCD", set it to 0 and set the two positions to P25 and P26. 
+
+```blocks
+basic.forever(function () {
+    basic.pause(1000)
+    NumberOfSeconds += 1
+    makerbit.showNumberOnLcd(0, makerbit.position(LcdPosition.P25), makerbit.position(LcdPosition.P26))
+})
+```
+
+## Final Step @tutorialCompleted 
+
+Lastly all you need to do is plug in your MakerBit and download the .hex file. Once it's downloaded drag it into your microBit. Your final product should look exactly the same as whats in the hint box!
+
+```blocks
 let NumberOfSeconds = 0
 makerbit.connectLcd(39)
 makerbit.clearLcd()
@@ -69,3 +101,4 @@ basic.forever(function () {
     NumberOfSeconds += 1
     makerbit.showNumberOnLcd(0, makerbit.position(LcdPosition.P25), makerbit.position(LcdPosition.P26))
 })
+```
