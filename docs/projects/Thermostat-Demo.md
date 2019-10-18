@@ -150,7 +150,27 @@ basic.forever(function () {
 
 ## Step 11
 
-Lastly all you need to do is plug in your MakerBit and download the .hex file. Once it's downloaded drag it into your microBit.
+That's it! We have completed the code! The finished project should look like this! 
+
+```blocks
+basic.forever(function () {
+    if (pins.analogReadPin(AnalogPin.P0) <= 600) {
+        pins.digitalWritePin(DigitalPin.P5, 1)
+    } else {
+        pins.digitalWritePin(DigitalPin.P5, 0)
+    }
+    if (pins.analogReadPin(AnalogPin.P0) >= 600 && pins.analogReadPin(AnalogPin.P0) <= 625) {
+        pins.digitalWritePin(DigitalPin.P6, 1)
+    } else {
+        pins.digitalWritePin(DigitalPin.P6, 0)
+    }
+    if (pins.analogReadPin(AnalogPin.P0) >= 626) {
+        pins.digitalWritePin(DigitalPin.P7, 1)
+    } else {
+        pins.digitalWritePin(DigitalPin.P7, 0)
+    }
+})
+```
 
 
 
