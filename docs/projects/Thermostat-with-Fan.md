@@ -34,7 +34,7 @@ basic.forever(function () {
 
 ## Step 3 
 
-Now we want to grab a "≤" block and place it at the very top of the If-Else statement. Then let's grab an "analog read pin" block and set it to P0. Let's place that block on the left of the ≤ symbol. Now let's set the value to the right of the ≤ symbol to 620. 
+Now we want to grab a ≤ block and place it at the very top of the If-Else statement. Then let's grab an "analog read pin" block and set it to P0. Let's place that block on the left of the ≤ symbol. Now let's set the value to the right of the ≤ symbol to 620. 
 
 ```blocks
 basic.forever(function () {
