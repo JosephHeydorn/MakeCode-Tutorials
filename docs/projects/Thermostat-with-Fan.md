@@ -25,7 +25,7 @@ Now we want to grab two "digital pin write" blocks. Then lets place one below th
 ```blocks
 basic.forever(function () {
     if (true) {
-        pins.digitalWritePin(DigitalPin.P10, 0)
+        pins.digitalWritePin(DigitalPin.P10, 1)
     } else {
         pins.digitalWritePin(DigitalPin.P10, 0)
     }
@@ -38,8 +38,8 @@ Now we want to grab a "≤" block and place it at the very top of the If-Else st
 
 ```blocks
 basic.forever(function () {
-    if (true) {
-        pins.digitalWritePin(DigitalPin.P10, 0)
+    if (pins.analogReadPin(AnalogPin.P0) <= 620) {
+        pins.digitalWritePin(DigitalPin.P10, 1)
     } else {
         pins.digitalWritePin(DigitalPin.P10, 0)
     }
