@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the first part of the traffic light porject is getting 1 traffic light working. 
+This is the first part of the traffic light porject is getting 1 traffic light working. (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1
 
@@ -15,7 +15,7 @@ pins.digitalWritePin(DigitalPin.P5, 1)
 
 ## Step 2 
 
-For part 1 we are going to add the red light. To start lets grab 3 "Digital Write Pin" blocks, and one "Pause" block. Stack the three digital blocks, then place the pause block under the three existing blocks. 
+For part 1 we are going to add the red light. To start lets grab 3 "Digital Write Pin" blocks from the advanced tab, and one "Pause" block from the basic tab. Stack the three digital blocks, then place the pause block under the three existing blocks. 
 
 ```blocks
 basic.forever(function () {

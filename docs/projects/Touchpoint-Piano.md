@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-In this tutorial we are going to be working on creating the code for a Touchpoint Piano. In this specific tutorial we are going to be making 4 different notes. After that you can work on adding as many more notes as you would like to. This will expand the range of your piano!
+In this tutorial we are going to be working on creating the code for a Touchpoint Piano. In this specific tutorial we are going to be making 4 different notes. After that you can work on adding as many more notes as you would like to. This will expand the range of your piano! (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1
 

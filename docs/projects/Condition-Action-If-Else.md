@@ -2,7 +2,7 @@
 
 ## Introdution 
 
-The next step is to make the blinking LED only happen when a MakerBit touch sensor is touched. Another way of saying that would be, “Only blink the LED if the MakerBit touch sensor is touched.  If not, (“or else”), turn the LED off.”
+The next step is to make the blinking LED only happen when a MakerBit touch sensor is touched. Another way of saying that would be, “Only blink the LED if the MakerBit touch sensor is touched.  If not, (“or else”), turn the LED off.” (If you need a hint you can simply click on the icon to the left!)
 
 ```blocks
 basic.forever(function () {

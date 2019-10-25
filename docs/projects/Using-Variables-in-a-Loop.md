@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Wouldn’t it be good if we could create the program so as to use a place-holder for the touch sensor and LED pin number, and then change that place-holder value from 5 to 16 in a loop? With “variables”, that’s exactly what you can do.  You can create a loop with a variable that will count from 5 to 16, and then other blocks will check if the sensor number that corresponds to that point in the counting loop is being touched.
+Wouldn’t it be good if we could create the program so as to use a place-holder for the touch sensor and LED pin number, and then change that place-holder value from 5 to 16 in a loop? With “variables”, that’s exactly what you can do.  You can create a loop with a variable that will count from 5 to 16, and then other blocks will check if the sensor number that corresponds to that point in the counting loop is being touched. (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1 
 

@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-In this tutorial we will create a seconds timer on the MakerBit LCD display. 
+In this tutorial we will create a seconds timer on the MakerBit LCD display. (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1
 

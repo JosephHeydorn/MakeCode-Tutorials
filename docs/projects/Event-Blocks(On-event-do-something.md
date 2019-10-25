@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this tutorial we will create code that on an event or action it does something.
+In this tutorial we will create code that on an event or action it does something. (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1 @fullscreen
 

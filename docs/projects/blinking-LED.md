@@ -2,7 +2,7 @@
 
 ## Introdution 
 
-In this tutorial we will be creating a blinking LED.
+In this tutorial we will be creating a blinking LED. (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1 
 
