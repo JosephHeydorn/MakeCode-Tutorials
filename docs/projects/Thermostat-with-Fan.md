@@ -2,11 +2,11 @@
 
 ## Introduction 
 
-In this tutorial we are going to be creating a fan that turns on based on the reading of the thermostat. If the room gets too warm, we want to turn on the fan! 
+In this tutorial we are going to be creating a fan that turns on based on the reading of the thermostat. If the room gets too warm, we want to turn on the fan! (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1 
 
-Let's start by getting an If-Else statement and dragging it in the forever block. 
+Let's start by getting an If-Else statement from the basic tab and dragging it in the forever block. 
 
 ```blocks
 basic.forever(function () {

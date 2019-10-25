@@ -2,11 +2,11 @@
 
 ## Introduction 
 
-This is a big project, so we are going to work in 3 sections. This will help keep everything nice and organized. We are starting from top to bottom. With that being said, lets get to it!
+This is a big project, so we are going to work in 3 sections. This will help keep everything nice and organized. We are starting from top to bottom. With that being said, lets get to it! (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1
 
-For the first section lets grab an if-else statement. 
+For the first section let's grab an If-Else statement from the basic tab and place it in the forever block. 
 
 ```blocks 
 basic.forever(function () {
@@ -20,7 +20,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Up next we want to grab two digital write pins. Lets place one below the IF, and one below the ELSE. Let's set each pin to 5 and then and then change the value of the top one to 1.
+Up next we want to grab two digital write pins from the advanced tab. Lets place one below the IF, and one below the ELSE. Let's set each pin to 5 and then and then change the value of the top one to 1.
 
 ```blocks
 basic.forever(function () {
@@ -34,7 +34,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Next lets grab a greater than or equal too comparison and place an analog read in the left bubble. Then lets change the value of the other bubble to 600. It should be "Analog 0 ≤ 600". Lastly we just need to place it at the very top of the where it says "true". That ends the first section. 
+Next lets grab a less than or equal too comparison from the logic tab and place an analog read in the left bubble. Then lets change the value of the other bubble to 600. It should be "Analog 0 ≤ 600". Lastly we just need to place it at the very top of the where it says "true". That ends the first section. 
 
 ```blocks
 basic.forever(function () {
@@ -48,7 +48,7 @@ basic.forever(function () {
 
 ## Step 4 
 
-Now lets grab a second if else statment. Then we can essentially leave the the digital write blocks inside of the if-else statement just like we placed them in the first section. The only thing we need to do is change the pin value to P6. 
+Now lets grab a second If-Else statment. Then we can essentially leave the the digital write blocks inside of the If-Else statement just like we placed them in the first section. The only thing we need to do is change the pin value to P6. 
 
 ```blocks 
 basic.forever(function () {
@@ -62,7 +62,7 @@ basic.forever(function () {
 
 ## Step 5
 
-Now lets grab an "and" statement, one ≥ statement, and one ≤ statement. Place the ≥ statement to the left of the and statement and place the ≤ to the left of the and statement. Then we can place that whole block where it says "true".
+Now lets grab an "and" statement from the logic tab, one ≥ statement, and one ≤ statement. Place the ≥ statement to the left of the and statement and place the ≤ to the left of the and statement. Then we can place that whole block where it says "true".
 
 ```blocks
 basic.forever(function () {
