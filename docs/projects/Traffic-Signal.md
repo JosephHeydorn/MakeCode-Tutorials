@@ -28,7 +28,7 @@ basic.forever(function () {
 
 ## Step 3 
 
-Next for part 1 let's change all the values. Let's set each pin going from top down here are the pin values. P5, P6, P7. Then let's change P5's value to 1. Lastly let's change the ``||Basic: pause (ms)||`` block from 100 to 4000. 4000 being 4 seconds. 
+Next for part 1 let's change all the values. Let's set each pin going from top down here are the pin values. P5, P6, P7. Then let's change P5's value from 0 to 1. Lastly let's change the ``||Basic: pause (ms)||`` block from 100 to 4000. 4000 being 4 seconds. 
 
 ```blocks
 basic.forever(function () {

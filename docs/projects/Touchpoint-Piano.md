@@ -6,7 +6,7 @@ In this tutorial we are going to be working on creating the code for a Touchpoin
 
 ## Step 1
 
-To begin, let's grab 4 while/do blocks blocks and place them inside the forever block. Make sure that they are stacked on top of one another and not placed inside of each other. 
+To begin, let's grab 4 ``||Loops: while-do||`` blocks and place them inside the forever block. Make sure that they are stacked on top of one another and not placed inside of each other. 
 
 ```blocks
 basic.forever(function () {

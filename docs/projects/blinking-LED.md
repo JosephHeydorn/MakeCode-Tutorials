@@ -14,7 +14,7 @@ makerbit.setDigitalPin(5, makerbit.level(PinLevel.High))
 })
 ```
 
-	## Step 2
+## Step 2
 
 Look in the Basic category find the ``||Basic: pause (ms)||`` block, and drag it to place it under the ``||Pins: digital write pin||`` block.
 
