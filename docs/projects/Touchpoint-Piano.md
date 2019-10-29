@@ -6,7 +6,7 @@ In this tutorial we are going to be working on creating the code for a Touchpoin
 
 ## Step 1
 
-To begin, let's grab 4 while/do statement blocks and place them inside the forever statement. Make sure that they are stacked on top of one another and not placed inside of each other. 
+To begin, let's grab 4 while/do blocks blocks and place them inside the forever block. Make sure that they are stacked on top of one another and not placed inside of each other. 
 
 ```blocks
 basic.forever(function () {
@@ -27,7 +27,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Next we want to grab 4 "touched sensor is touched" blocks. Then we want to place them inside of the while statment. This block sould be placed where it says "true". Then we want to number them from 5 to 8. 
+Next we want to grab 4 "touched sensor is touched" blocks. Then we want to place them inside of the while block. This block sould be placed where it says "true". Then we want to number them from 5 to 8. 
 
 ```blocks
 basic.forever(function () {
@@ -49,7 +49,7 @@ basic.forever(function () {
 
 ## Step 3 
 
-For our second to last step we want to grab 4 "play tone" blocks. These blocks will be placed inside of the while statement right next to where it says "do". Lets set each block to a different tone. Going from top to bottom its going to look like this. Middle A, Middle B, High C, High D.
+For our second to last step we want to grab 4 "play tone" blocks. These blocks will be placed inside of the while block right next to where it says "do". Lets set each block to a different tone. Going from top to bottom its going to look like this. Middle A, Middle B, High C, High D.
 
 ```blocks
 basic.forever(function () {

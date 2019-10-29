@@ -18,7 +18,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Next we want to add an empty if-else statement block inside of our for loop. 
+Next we want to add an empty ``||Logic: if-else||`` block inside of our for loop. 
 
 ```blocks
 basic.forever(function () {

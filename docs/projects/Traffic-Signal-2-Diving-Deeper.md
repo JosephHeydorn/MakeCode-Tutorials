@@ -76,7 +76,7 @@ basic.forever(function () {
 
 ## Step 4 
 
-Once again lets copy those three blocks we jsut created. We want to place those copies on top of the 2nd pause statement. Now lets change P10's value to 0 and P8's value to 1. 
+Once again lets copy those three blocks we jsut created. We want to place those copies on top of the 2nd pause block. Now lets change P10's value to 0 and P8's value to 1. 
 
 ```blocks
 basic.forever(function () {
@@ -103,7 +103,7 @@ basic.forever(function () {
 
 ## Step 5
 
-Lastly for our final part we want to copy the three blocks again. Placing them above the last pause statement. No lets change P8's value to 0 and P1's value to 1. This will turn the light yellow!
+Lastly for our final part we want to copy the three blocks again. Placing them above the last pause block. No lets change P8's value to 0 and P1's value to 1. This will turn the light yellow!
 
 ## Step 6 
 

@@ -14,7 +14,7 @@ basic.pause(100)
 ```
 ## Step 1
 
-We can represent this in a block program by adding another Logic block.  Click on the Logic category, and choose the block with the words “if” and “else”. Once this is in your work area, click on the top block (set digital pin) to drag the whole group of blocks into the “if” space of the if else block. Then drag the if block and attached blocks back into the forever block.
+We can represent this in a block program by adding another Logic block.  Click on the Logic category, and choose the ``||Logic: if-else||`` block. Once this is in your work area, click on the top block (set digital pin) to drag the whole group of blocks into the “if” space of the if else block. Then drag the ``||Logic: if-else||`` block and attached blocks back into the forever block.
 
 ```blocks
 basic.forever(function () {

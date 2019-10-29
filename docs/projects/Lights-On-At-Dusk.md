@@ -6,7 +6,7 @@ In this project, we want to create a way for the LED to turn on and off based on
 
 ## Step 1
 
-Let's start by getting an If-Else statement from the basic tab and dragging it in the forever block. 
+Let's start by getting an If-Else block from the basic tab and dragging it in the forever block. 
 
 ```blocks 
 basic.forever(function () {

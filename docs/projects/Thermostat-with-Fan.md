@@ -6,7 +6,7 @@ In this tutorial we are going to be creating a fan that turns on based on the re
 
 ## Step 1 
 
-Let's start by getting an If-Else statement from the basic tab and dragging it in the forever block. 
+Let's start by getting an ``||Logic: if-else||`` block from the basic tab and dragging it in the forever block. 
 
 ```blocks
 basic.forever(function () {
@@ -20,7 +20,7 @@ basic.forever(function () {
 
 ## Step 2 
 
-Now we want to grab two "digital pin write" blocks. Then lets place one below the if, and one below the else statement. Let's set each one to P10. Then let's change the top one's value to 1.
+Now we want to grab two "digital pin write" blocks. Then lets place one below the if, and one below the else statement. Let's set each one to P10. Then let's change the top digital write pin value to 1 by clicking on the "0" and sliding the value over to "1".
 
 ```blocks
 basic.forever(function () {
@@ -34,7 +34,7 @@ basic.forever(function () {
 
 ## Step 3 
 
-Now we want to grab a ≤ block and place it at the very top of the If-Else statement. Then let's grab an "analog read pin" block and set it to P0. Let's place that block on the left of the ≤ symbol. Now let's set the value to the right of the ≤ symbol to 620. 
+Now we want to grab a ≤ block and place it at the very top of the ``||Logic: if-else||`` block. Then let's grab an "analog read pin" block and set it to P0. Let's place that block on the left of the ≤ symbol. Now let's set the value to the right of the ≤ symbol to "620". 
 
 ```blocks
 basic.forever(function () {
