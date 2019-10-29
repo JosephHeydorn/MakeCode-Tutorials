@@ -6,7 +6,7 @@ This is a continuation of the Traffic Signal project. We are going to be creatin
 
 ## Step 1 
 
-Once again lets look at the code as if it is in three sections. Each section ends at the pasue block. With that being said lets do this in three parts once again!
+Once again let's look at the code as if it is in three sections. Each section ends at the ``||Basic: pause (ms)||`` block. With that being said let's do this in three parts once again!
 
 ```blocks
 basic.forever(function () {
@@ -28,7 +28,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Lets start by adding three more "digital write pin" blocks. We are going to place them right above the first pause block.
+Let's start by adding three more ``||Pins: digital write pin||`` blocks. We are going to place them right above the first ``||Basic: pause (ms)||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -52,7 +52,7 @@ basic.forever(function () {
 
 ## Step 3 
 
-Now lets change those value once again. This only include the new blocks we just added. Starting from top to bottom lets set the values to P8, P9, and P10. Then lets change the value of P10 to 1. This will turn one light green and turn one light red. 
+Now let's change those value once again. This only include the new blocks we just added. Starting from top to bottom let's set the values to P8, P9, and P10. Then let's change the value of P10 to 1. This will turn one light green and turn one light red. 
 
 ```blocks
 basic.forever(function () {
@@ -76,7 +76,7 @@ basic.forever(function () {
 
 ## Step 4 
 
-Once again lets copy those three blocks we jsut created. We want to place those copies on top of the 2nd pause block. Now lets change P10's value to 0 and P8's value to 1. 
+Once again let's copy those three blocks we jsut created. We want to place those copies on top of the 2nd ``||Basic: pause (ms)||`` block. Now let's change P10's value to 0 and P8's value to 1. 
 
 ```blocks
 basic.forever(function () {
@@ -103,7 +103,7 @@ basic.forever(function () {
 
 ## Step 5
 
-Lastly for our final part we want to copy the three blocks again. Placing them above the last pause block. No lets change P8's value to 0 and P1's value to 1. This will turn the light yellow!
+Lastly for our final part we want to copy the three blocks again. Placing them above the last ``||Basic: pause (ms)||`` block. Now let's change P8's value to 0 and P1's value to 1. This will turn the light yellow!
 
 ## Step 6 
 

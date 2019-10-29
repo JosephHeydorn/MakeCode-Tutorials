@@ -6,7 +6,7 @@ In this tutorial we will create a seconds timer on the MakerBit LCD display. (If
 
 ## Step 1
 
-To begin we want to create a variable named "NumberOfSeconds" then lets set the variable to 0 and drag it to the ``||Basic:on start||`` block.
+To begin we want to create a variable named "NumberOfSeconds" then let's set the variable to 0 and drag it to the ``||Basic:on start||`` block.
 
 ```blocks 
 let NumberOfSeconds = 0
@@ -32,7 +32,7 @@ makerbit.clearLcd()
 
 ## Step 4
 
-Next lets lets have something display on the LCD display. What we want to do is have "MakerBit Timer" appear on screen. So lets grab our "Show LCD String" block and set it from P0 - P15.
+Next let's have something display on the LCD display. What we want to do is have "MakerBit Timer" appear on screen. So let's grab our "Show LCD String" block and set it from P0 - P15.
 
 ```blocks
 let NumberOfSeconds = 0
@@ -43,7 +43,7 @@ makerbit.showStringOnLcd("MakerBit Timer", makerbit.position(LcdPosition.P0), ma
 
 ## Step 5
 
-Lastly for this step, lets have the word seconds display on the screen. We are going to do exactly the same thing as last time except change the text to "Seconds: " and set it to P0 - P24
+Lastly for this step, let's have the word seconds display on the screen. We are going to do exactly the same thing as last time except change the text to "Seconds: " and set it to P0 - P24
 
 ```blocks
 let NumberOfSeconds = 0
@@ -55,7 +55,7 @@ makerbit.showStringOnLcd("Seconds: ", makerbit.position(LcdPosition.P0), makerbi
 
 ## Step 6 
  
- Next lets grab and place a forever block if it's not already on screen. This will help us loop a timer forever! We need to have a way that it wait's 1 second everytime before it adds on to the actual timer, so lets grab the pause block and set it to 1000.
+ Next let's grab and place a forever block if it's not already on screen. This will help us loop a timer forever! We need to have a way that it wait's 1 second everytime before it adds on to the actual timer, so let's grab the ``||Basic: pause (ms)||`` and set it to 1000.
 
 ```blocks
  basic.forever(function () {
@@ -76,7 +76,7 @@ Then we are going to add to our variable every time our 1 second pause ends, thi
 
 ## Step 8 
 
-For our last step before we test our code on our MakerBit and LCD screen, we want to show a number on the LCD in the space that is free to do so! That means we need to position it in the right place. Lets grab our "Show number on LCD", set it to 0 and set the two positions to P25 and P26. 
+For our last step before we test our code on our MakerBit and LCD screen, we want to show a number on the LCD in the space that is free to do so! That means we need to position it in the right place. Let's grab our "Show number on LCD", set it to 0 and set the two positions to P25 and P26. 
 
 ```blocks
 basic.forever(function () {

@@ -6,7 +6,7 @@ In this tutorial we will be creating a blinking LED. (If you need a hint you can
 
 ## Step 1 
 
-To turn on and off LEDs with the MakerBit, you will start with the MakerBit Pins category.  Drag the “digital write pin 5” into the Forever loop block. To turn on LED #5, confirm that the block shows pin “5” to “high”.  For other pins, you would click on the “5” of the block to change it to “5”, and edit “high” to “low” if you wanted to turn an LED off.
+To turn on and off LEDs with the MakerBit, you will start with the MakerBit Pins category.  Drag the ``||Pins: digital write pin||`` block into the Forever loop block. To turn on LED #5, confirm that the block shows pin “P5” to “high”. For other pins, you would click on the “5” of the block to change it to “5”, and edit “high” to “low” if you wanted to turn an LED off.
 
 ```blocks
 basic.forever(function () {
@@ -16,7 +16,7 @@ makerbit.setDigitalPin(5, makerbit.level(PinLevel.High))
 
 	## Step 2
 
-Look in the Basic category find the pause block, and drag it to place it under the digital write pin block.
+Look in the Basic category find the ``||Basic: pause (ms)||`` block, and drag it to place it under the ``||Pins: digital write pin||`` block.
 
 ```blocks
 basic.forever(function () {
@@ -27,7 +27,7 @@ basic.forever(function () {
 
 ## Step 3
 
-Then repeat to add two more blocks to complete the program by having the next “set digital pin” block set pin 5 to “low”, and then pause for another 100ms (0.1 seconds). 
+Then repeat to add two more blocks to complete the program. Add one ``||Pins: digital write pin||`` block and set the pin to P5 and the value to 1. Lastly let's add a ``||Basic: pause (ms)||`` block and set the value to 100ms (0.1 seconds). 
 
 ```blocks 
 basic.forever(function () {

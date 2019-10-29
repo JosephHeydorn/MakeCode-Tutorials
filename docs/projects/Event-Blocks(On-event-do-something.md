@@ -29,7 +29,7 @@ makerbit.onTouch(TouchSensor.Any, TouchAction.Touched, function () {
 ```
 ## Step 4 @fullscreen
 
-Once you have both of the blocks in place, we want to add the set digital pin and place it in our first block. Then lets set it to high and add the ``||MakerBit:touch sensor||`` sensor block right where you see the number 0 written. If you get stuck, check out the hint, as this is a very important step! 
+Once you have both of the blocks in place, we want to add the set digital pin and place it in our first block. Then let's set it to high and add the ``||MakerBit:touch sensor||`` sensor block right where you see the number 0 written. If you get stuck, check out the hint, as this is a very important step! 
 
 ```blocks
 makerbit.onTouch(TouchSensor.Any, TouchAction.Released, function () { 
@@ -41,7 +41,7 @@ makerbit.onTouch(TouchSensor.Any, TouchAction.Touched, function () {
 
 ## Step 5 @fullscreen
 
-Next lets do the same except thing on the lower block except this time we are going to be setting it to 
+Next let's do the same except thing on the lower block except this time we are going to be setting it to 
 low. 
 
 ```blocks

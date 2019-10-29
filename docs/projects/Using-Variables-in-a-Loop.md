@@ -6,7 +6,7 @@ Wouldn’t it be good if we could create the program so as to use a place-holder
 
 ## Step 1 
 
-First lets start off by creating a variable named index. Then lets drag the variable into the for "index" from 0 to 5. We need to change it to 5 and 16. 
+First let's start off by creating a variable named index. Then let's drag the variable into the for "index" from 0 to 5. We need to change it to 5 and 16. 
 
 ```blocks
 basic.forever(function () {

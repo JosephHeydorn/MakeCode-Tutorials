@@ -27,7 +27,7 @@ basic.forever(function () {
 
 ## Step 2
 
-Next we want to grab 4 "touched sensor is touched" blocks. Then we want to place them inside of the while block. This block sould be placed where it says "true". Then we want to number them from 5 to 8. 
+Next we want to grab 4 "touched sensor is touched" blocks. Then we want to place them inside of the while block. This block should be placed where it says "true". Then we want to number them from 5 to 8. 
 
 ```blocks
 basic.forever(function () {
@@ -49,7 +49,7 @@ basic.forever(function () {
 
 ## Step 3 
 
-For our second to last step we want to grab 4 "play tone" blocks. These blocks will be placed inside of the while block right next to where it says "do". Lets set each block to a different tone. Going from top to bottom its going to look like this. Middle A, Middle B, High C, High D.
+For our second to last step we want to grab 4 "play tone" blocks. These blocks will be placed inside of the while block right next to where it says "do". Let's set each block to a different tone. Going from top to bottom its going to look like this. Middle A, Middle B, High C, High D.
 
 ```blocks
 basic.forever(function () {
@@ -70,7 +70,7 @@ basic.forever(function () {
 
 ## Step 4 
 
-Finally if you haven't already done so, lets change the beat of each block to 1/16th of a beat. This will give off a constant sound that wont drag on once we release our finger from the touch sensor. 
+Finally if you haven't already done so, let's change the beat of each block to 1/16th of a beat. This will give off a constant sound that wont drag on once we release our finger from the touch sensor. 
 
 ```blocks
 basic.forever(function () {
