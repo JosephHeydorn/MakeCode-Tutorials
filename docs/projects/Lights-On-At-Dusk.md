@@ -33,7 +33,7 @@ basic.forever(function () {
 ```
 
 ## Step 3
-Next let's grab a greater than comparison from the logic tab and place an analog read block in the left bubble. Then let's change the value of the other bubble to 600. It should be "Analog 0 > 600" This will help us detect if it is picking up light or not and if there is no light, it will turn on the LED. Lastly we just need to place it at the very top of the where it says "true".
+Next let's grab a ``||Logic: >||`` comparison from the logic tab and place an ``||Pins: analog read pin||`` block in the left bubble. Then let's change the value of the other bubble to 600. It should be "analog read pin 0 > 600" This will help us detect if it is picking up light or not and if there is no light, it will turn on the LED. Lastly we just need to place it at the very top of the where it says "true".
 
 ```blocks
 basic.forever(function () {
