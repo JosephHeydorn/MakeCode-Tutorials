@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This is a continuation of the Traffic Signal project. We are going to be creating the code for the second traffic light. To do so all we are going to do is add a few more blocks of code and thats it! (If you need a hint you can simply click on the icon to the left!)
+This is a continuation of the Traffic Signal project. We are going to be creating the code for the second traffic light. To do so, all we are going to do is add a few more blocks of code and thats it! (If you need a hint you can simply click on the icon to the left!)
 
 ## Step 1 
 
